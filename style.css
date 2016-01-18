@@ -1,0 +1,39 @@
+h1 {
+	font-family: Impact, sans-serif;
+	color:#292756;
+	margin-bottom:20px;
+	align:center;
+}
+
+h2 {
+	font-family:Impact, sans-serif;
+	color:#4958a0;
+}
+
+h3 {
+	font-family:Impact, sans-serif;
+	color:#887777;
+}
+
+p {
+	font-family:helvetica, sans-serif;
+	margin-right:400px;
+}
+
+body {
+	background-color:#FFFFFF;
+	padding-left:25px;
+	margin-top:60px;
+	margin-left:100px;
+	margin-right:100px;
+	border-left:dashed 1px;
+}
+
+a {
+	color:#900000;
+}
+
+ul {
+	font-family:helvetica, sans-serif;
+	list-style-type: square;
+}
