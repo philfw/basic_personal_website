@@ -21,12 +21,12 @@ p {
 }
 
 body {
-	background-image: url("symphony.png");
+	background-image: url("../images/symphony.png");
 	padding-left:25px;
 	margin-top:60px;
-	margin-left:100px;
-	margin-right:100px;
 	border-left:dashed 1px;
+	width:100%;
+	
 }
 
 a {
