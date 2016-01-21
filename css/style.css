@@ -8,6 +8,8 @@ body {
 header {
 	padding:0px;
 	margin:0px;
+	width:100%;
+	height:auto;
 }
 
 h1 {
@@ -37,7 +39,7 @@ a {
 
 ul {
 	font-family:helvetica, sans-serif;
-	list-style-type: square;
+	list-style-type: none;
 	padding:0px;
 	margin:0px;
 }
@@ -45,12 +47,13 @@ ul {
 .navbar {
 	width:100%;
 	height:40px;
-	font-size:16px;
-	list-style-type: none;
+	font-size:20px;
 	font-family: Impact;
 	font-weight: bold;
 	text-align: center;
 	background-color: #366ED4;
+	position:fixed;
+	bottom:0;
 }
 
 .navbar ul {
@@ -59,7 +62,7 @@ ul {
 
 .navbar li {
 	display:inline;
-	padding:40px;
+	padding:40px 40px;
 }
 
 .navbar a {
@@ -69,4 +72,17 @@ ul {
 
 .navbar a:hover {
 	background-color:#FFF;
+}
+
+.body {
+	margin-left:40px;
+	padding-right:80px;
+}
+
+.work {
+	height:100px;
+	width:80px;
+	border: solid 1px;
+	background-color:yellow;
+	text-align:center;
 }
